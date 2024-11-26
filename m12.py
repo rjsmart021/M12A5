@@ -15,7 +15,6 @@ videos = [
     {'id': 10, 'title': 'Travel Diaries: Discovering Europe', 'duration': 78}
 ]
 
-
 # To run a binary search for video titles, we will first have to make sure they're sorted:
 
 # I initially used a bubble sort to order the videos by title; then I saw the next task requires a merge sort!
