@@ -15,7 +15,7 @@ videos = [
     {'id': 10, 'title': 'Travel Diaries: Discovering Europe', 'duration': 78}
 ]
 
-# Task 1 - Implement the binary search algorithm for searching videos by title.
+
 # To run a binary search for video titles, we will first have to make sure they're sorted:
 
 # I initially used a bubble sort to order the videos by title; then I saw the next task requires a merge sort!
@@ -112,11 +112,11 @@ def home():
 def search_videos(title):
     return search_for_video(videos, title)
 
-# Task 3 - Test the video search functionality: ✅
+
 
 # Video Sorting with Merge Sort
 
-# Task 1 - Implement the merge sort algorithm in Python to sort videos by their titles: ✅
+
 # Note: I put this function above the binary search, so the binary search would be searching a sorted list
 
 
@@ -125,5 +125,3 @@ def search_videos(title):
 @app.route("/videos")
 def view_videos():
     return videos # already sorted by the merge sort implemented above
-
-# Task 3 - Test the video sorting functionality ✅
